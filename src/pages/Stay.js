@@ -1,7 +1,6 @@
 import { Navbar, CheckInForm, Footer } from "../components";
 
 const Stay = () => {
-
   return (
     <div>
       <Navbar />
@@ -19,7 +18,7 @@ const Stay = () => {
               <p>
                 The Soaltee Hotel Kathmandu is a luxurious and iconic hotel
                 nestled amidst the serene landscapes of Nepal's capital city.
-                With its rich heritage and contemporary amenities, it offers a
+                With its rich heritagehyper and contemporary amenities, it offers a
                 perfect blend of traditional charm and modern comfort. Boasting
                 elegant rooms, exquisite dining options, and world-class
                 facilities like a spa, pool, and fitness center, it ensures an
@@ -80,9 +79,9 @@ const Stay = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.5458415606467!2d85.2908345!3d27.7004284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18609488cdb7%3A0x44edd8fc9a17af63!2sThe%20Soaltee%20Kathmandu!5e0!3m2!1sen!2snp!4v1689961631373!5m2!1sen!2snp"
               width="300"
               height="250"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           </div>
@@ -90,6 +89,8 @@ const Stay = () => {
           <h2>Available Rooms:</h2>
           <div className="stays-location">
             <table>
+              <thead></thead>
+              <tbody>
               <tr>
                 <th >Room Type</th>
                 <th>No.of Guests</th>
@@ -115,6 +116,9 @@ const Stay = () => {
                 <td><img src="img/user.png" className="guest-img"/><img src="img/user.png" className="guest-img"/><img src="img/user.png" className="guest-img"/><img src="img/user.png" className="guest-img"/><img src="img/user.png" className="guest-img"/><img src="img/user.png" className="guest-img"/></td>
                 <td><button className="btn-guest">Show Prices</button></td>
               </tr>
+              </tbody>
+              <tfoot></tfoot>
+              
             </table>
           </div>
           </div>

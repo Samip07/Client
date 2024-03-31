@@ -53,27 +53,27 @@ const About = () => {
           <div className="team_img">
             <img src="img/samip.jpg" alt="asis" />
             <h3>Samip Poudel</h3>
-            <p>CEO & co-founder</p>
+            <p>React, Backend</p>
           </div>
           <div className="team_img">
             <img src="img/aashish.JPG" alt="asis" />
             <h3>Aashish Paudel</h3>
-            <p>CEO & co-founder</p>
+            <p>Frontend</p>
           </div>
           <div className="team_img">
             <img src="img/sandesh.jpg" alt="asis" />
             <h3>Sandesh Sigdel</h3>
-            <p>CMO</p>
+            <p>Database (MongoDB)</p>
           </div>
           <div className="team_img">
             <img src="img/ujwal.jpg" alt="asis" />
             <h3>Ujwal Poudel</h3>
-            <p>Executive Head</p>
+            <p>Frontend, Documentation</p>
           </div>
           <div className="team_img">
             <img src="img/prabhat.JPG" alt="asis" />
             <h3>Prabhat Pandit</h3>
-            <p>Helper</p>
+            <p>Designer, Documentation</p>
           </div>
         </div>
       </div>

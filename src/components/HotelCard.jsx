@@ -1,8 +1,8 @@
 import React from "react";
 
 function HotelCard(props){
-    return (
-        <div className="hotel-item">
+  return (
+    <div className="hotel-item">
           <a href="/stay"><img src={props.imgURL} alt="hotel" /></a>
           <div className="hotel-text">
             <h3>{props.name}</h3>
@@ -12,6 +12,6 @@ function HotelCard(props){
           </div>
         </div>
     )
-}
-
+  }
+  
 export default HotelCard;

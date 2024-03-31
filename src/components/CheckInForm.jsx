@@ -5,7 +5,7 @@ function CheckInForm(){
         <form>
         <div className="nation">
             <div className="choose_nation">
-                <label for="choose">Nationality:</label>
+                <label >Nationality:</label>
                 <select name="cnation" id="cnation">
                     <option value="nation">Where are you from?</option>
                     <option value="nepal">Nepal</option>
@@ -21,9 +21,9 @@ function CheckInForm(){
                 </select>
             </div>
             <div className="check_in">
-                <label for="checkin">Check-In</label>
+                <label htmlFor="checkin">Check-In</label>
                 <input type="date" id="cindate" name="cindate" />
-                <label for="checkout">Check-Out</label>
+                <label htmlFor="checkout">Check-Out</label>
                 <input type="date" id="coutdate" name="coutdate" />
             </div>
             <div className="search">
