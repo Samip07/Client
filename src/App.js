@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Home, Visitings, About, Stay, Register, Error, Trek } from "./pages";
 
 function App() {
